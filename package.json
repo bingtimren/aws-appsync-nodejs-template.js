@@ -1,0 +1,29 @@
+{
+  "name": "aws-appsync-nodejs-template",
+  "version": "1.0.0",
+  "description": "watch Ethereum for transactions and report certain ones",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "node dist/test.js"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.10",
+    "apollo-client": "^2.4.2",
+    "apollo-link": "^1.2.3",
+    "apollo-link-http": "^1.5.5",
+    "aws-appsync": "^1.3.4",
+    "aws-sdk": "^2.326.0",
+    "es6-promise": "^4.2.5",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.9.2",
+    "isomorphic-fetch": "^2.2.1",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
